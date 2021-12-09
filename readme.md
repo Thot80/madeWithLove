@@ -37,7 +37,7 @@
 * Aller sur votre branche de travail :
     * *git switch[branche]*
 * Pusher votre branch :
-    * git push --set-upstream origin [votreBranche]*
+    * *git push --set-upstream origin [votreBranche]*
 
 Vous êtes prêts !
 
@@ -52,6 +52,11 @@ Vous êtes prêts !
     * *git commit -m "Message du commit"*
     * *git push*
 
+
+* Récupérer les changements apportés au main sur votre branche :
+    * *git switch [votreBranche]*
+    * *git fetch*
+    * *git merge origin/main*
 ## Structure du site
 
 ![Provisoire](/doc/flux-made-with-love.png)
