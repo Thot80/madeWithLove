@@ -8,7 +8,7 @@ $lovers = [
         "mail" => "john.doe@google.com",
         "zipcode" => "80080",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Martin",
@@ -18,7 +18,7 @@ $lovers = [
         "mail" => "alice.martin@google.com",
         "zipcode" => "75020",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Carter",
@@ -28,7 +28,7 @@ $lovers = [
         "mail" => "mark.carter@google.com",
         "zipcode" => "75002",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Guyon",
@@ -38,7 +38,7 @@ $lovers = [
         "mail" => "france.guyon@google.com",
         "zipcode" => "67290",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Dage",
@@ -48,7 +48,7 @@ $lovers = [
         "mail" => "jeremy.dage@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Henry",
@@ -58,7 +58,7 @@ $lovers = [
         "mail" => "margaux.henry@google.com",
         "zipcode" => "60320",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Croisé",
@@ -68,7 +68,7 @@ $lovers = [
         "mail" => "david.croise@google.com",
         "zipcode" => "02500",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Depres",
@@ -78,7 +78,7 @@ $lovers = [
         "mail" => "pauline.depres@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Bègue",
@@ -88,7 +88,7 @@ $lovers = [
         "mail" => "maxime.begue@google.com",
         "zipcode" => "75019",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Courrier",
@@ -98,7 +98,7 @@ $lovers = [
         "mail" => "carole.courrier@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Deloin",
@@ -108,7 +108,7 @@ $lovers = [
         "mail" => "henry.deloin@google.com",
         "zipcode" => "75016",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Dubois",
@@ -118,7 +118,7 @@ $lovers = [
         "mail" => "caroline.dubois@google.com",
         "zipcode" => "60210",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Tiroir",
@@ -128,7 +128,7 @@ $lovers = [
         "mail" => "josef.tiroir@google.com",
         "zipcode" => "80080",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Bleau",
@@ -138,7 +138,7 @@ $lovers = [
         "mail" => "marta.bleau@google.com",
         "zipcode" => "75005",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Guichard",
@@ -148,7 +148,7 @@ $lovers = [
         "mail" => "morgan.guichard@google.com",
         "zipcode" => "60000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Tuile",
@@ -158,7 +158,7 @@ $lovers = [
         "mail" => "carla.tuile@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Porte",
@@ -168,7 +168,7 @@ $lovers = [
         "mail" => "william.porte@google.com",
         "zipcode" => "75004",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Couturier",
@@ -178,7 +178,7 @@ $lovers = [
         "mail" => "sandrine.couturier@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Salto",
@@ -188,7 +188,7 @@ $lovers = [
         "mail" => "gregoire.salto@google.com",
         "zipcode" => "60000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ],
     [
         "lastname" => "Cahier",
@@ -198,6 +198,6 @@ $lovers = [
         "mail" => "martine.cahier@google.com",
         "zipcode" => "02000",
         "picture" => "../assets/img/",
-        "descrition" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche l'amour avec un grand A",
     ]
 ];

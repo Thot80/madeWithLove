@@ -1,3 +1,7 @@
+<?php
+require "../controllers/lovers_controller.php";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -14,21 +18,44 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="card my-2">
-                    <img src="../assets/img/pexels-andrea-piacquadio-762020.jpg" class="card-img-top" alt="image_de_profil">
+                    <img src="<?= $lovers[1]["picture"]; ?>" class="card-img-top" alt="<?= ($lovers[1]["gender"] == "homme") ? "photo d'un homme" : "photo d'une femme"; ?>">
                     <div class="card-body">
                         <div class="card-text">
-                            <p class="float-end me-4 mt-3"><i class="fas fa-map-pin"></i> 75008</p>
-                            <h5 class="fs-4">Chloé Dupond</h5>
-                            <h5 class="text-muted">23 ans</h5>
+                            <p class="float-end me-4 mt-3"><i class="fas fa-map-pin"></i> <?= $lovers[1]["zipcode"] ?></p>
+                            <h5 class="fs-4"><?= $lovers[1]["firstname"] . " " . $lovers[1]["lastname"] ?></h5>
+                            <h5 class="text-muted"><?= $lovers[1]["age"] ?></h5>
                             <hr class="my-2" />
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, molestias.</p>
-                            <div class="text-center"><button type="button" class="btn btn-success fs-5 rounded-pill"><i class="fas fa-heart"></i></button></div>
+                            <p><?= $lovers[1]["description"] ?></p>
+                            <div class="text-center"><button type="button" class="btn btn-success fs-5 rounded-pill"><i class="fas fa-heart"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <?php
+            foreach ($lovers as $lover) {
+            ?>
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="<?= $lover["picture"]; ?>" class="card-img-top" alt="<?= ($lover["gender"] == "homme") ? "photo d'un homme" : "photo d'une femme"; ?>">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p class="float-end me-4 mt-3"><i class="fas fa-map-pin"></i> <?= $lover["zipcode"] ?></p>
+                                <h5 class="fs-4"><?= $lover["firstname"] . " " . $lover["lastname"] ?></h5>
+                                <h5 class="text-muted"><?= $lover["age"] ?></h5>
+                                <hr class="my-2" />
+                                <p><?= $lover["description"] ?></p>
+                                <div class="text-center"><button type="button" class="btn btn-success fs-5 rounded-pill"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
