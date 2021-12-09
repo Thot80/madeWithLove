@@ -39,6 +39,19 @@
 
 Vous êtes prêts !
 
+
+## Workflow
+
+![Provisoire](/doc/git.png)
+
+* Avant de commit, on pull :
+    * *git pull*
+    * *git add [fichier]*
+    * *git commit -m "Message du commit"*
+    * *git push*
+
 ## Structure du site
 
 ![Provisoire](/doc/flux-made-with-love.png)
+
+
