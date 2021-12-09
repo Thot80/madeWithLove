@@ -36,6 +36,8 @@
     * *git branch [prenom]*
 * Aller sur votre branche de travail :
     * *git switch[branche]*
+* Pusher votre branch :
+    * git push --set-upstream origin [votreBranche]*
 
 Vous êtes prêts !
 
