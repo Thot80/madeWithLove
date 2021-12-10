@@ -11,43 +11,37 @@ require("../controllers/user_controller.php");
       <div class="row pt-4">
         <div class="col">Nom : </div>
         <div class="col"><?= $lastname;?></div>
-        <div class="col text-muted">/modifier</div>
       </div>
 
       <div class="row">
         <div class="col">Prénom:</div>
         <div class="col"><?= $firstname;?></div>
-        <div class="col text-muted">/modifier</div>
       </div>
 
       <div class="row">
         <div class="col">Genre :</div>
         <div class="col"><?= $age;?></div>
-        <div class="col text-muted">/modifier</div>
       </div>
 
       <div class="row">
         <div class="col">Genre :</div>
         <div class="col"><?= $gender;?></div>
-        <div class="col text-muted">/modifier</div>
 </div>
       <div class="row">
         <div class="col">Code postal :</div>
         <div class="col"><?= $zipcode;?></div>
-        <div class="col text-muted">/modifier</div>
 </div>
 
       <div class="row">
         <div class="col">Adresse mail :</div>
         <div class="col"><?= $research_type;?></div>
-        <div class="col text-muted">/modifier</div>
       </div>
 
 	  <form action="../controllers/user_controller.php" method="POST">
       <div class="text-center bg-dark p-4">
         <button name="submit" value="delete" type="submit" class="btn btn-outline-danger btn-lg">EFFACER</button>
 
-    <button type="button" class="btn btn-secondary btn-lg">MEETIC</button>
+    <a href="https://www.meetic.fr/" target="_blank" class="btn btn-secondary btn-lg">MEETIC</a>
     </div>
 	</form>
     </div>
