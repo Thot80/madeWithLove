@@ -26,7 +26,6 @@ require "../controllers/lovers_controller.php";
                         </div>
                     </div>
                 </div>
-            </div>
         <?php
         }
         ?>
