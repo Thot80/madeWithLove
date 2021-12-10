@@ -1,3 +1,12 @@
+
+.hearts{
+  background-color:#07d907;
+  color: white;
+}
+.img-container{
+    overflow: hidden;
+    max-height: 230px;
+}
 body{
   background-image: url("https://i.postimg.cc/SxLK5bRD/index-background.jpg");
   height: 100%;
@@ -24,4 +33,7 @@ body{
 .custom-toggler.navbar-toggler {
   border-width: 2px;
   border-color: rgb(255,255,255);
+}
+.active{
+  background-color:#f808bc;
 }

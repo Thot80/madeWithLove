@@ -1,7 +1,13 @@
 <!-- Footer -->
+<<<<<<< HEAD
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container-fluid p-0 pt-4">
+=======
+<footer class="bg-dark text-center text-white container-fluid">
+  <!-- Grid container -->
+  <div class=" p-0 pt-4">
+>>>>>>> main
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
@@ -93,7 +99,11 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<<<<<<< HEAD
 <script src="assets/js/script.js"></script>
+=======
+<script src="<?=$root;?>/assets/js/script.js"></script>
+>>>>>>> main
 
 </body>
 
