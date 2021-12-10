@@ -7,7 +7,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "john.doe@google.com",
         "zipcode" => "80080",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/john-doe.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -17,7 +17,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "alice.martin@google.com",
         "zipcode" => "75020",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/alice-martin.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -27,7 +27,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "mark.carter@google.com",
         "zipcode" => "75002",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/mark-carter.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -37,7 +37,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "france.guyon@google.com",
         "zipcode" => "67290",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/france-guyon.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -47,7 +47,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "jeremy.dage@google.com",
         "zipcode" => "80000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/jeremy-dage.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -57,7 +57,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "margaux.henry@google.com",
         "zipcode" => "60320",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/margaux-henry.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -67,7 +67,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "david.croise@google.com",
         "zipcode" => "02500",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/david-croise.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -77,7 +77,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "pauline.depres@google.com",
         "zipcode" => "80000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/pauline-depres.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -87,7 +87,7 @@ $lovers = [
         "gender" => "hommz",
         "mail" => "maxime.begue@google.com",
         "zipcode" => "75019",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/maxime-begue.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -97,7 +97,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "carole.courrier@google.com",
         "zipcode" => "80000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/carole-courrier.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -107,7 +107,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "henry.deloin@google.com",
         "zipcode" => "75016",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/henry-deloin.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -117,7 +117,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "caroline.dubois@google.com",
         "zipcode" => "60210",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/caroline-dubois.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -127,7 +127,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "josef.tiroir@google.com",
         "zipcode" => "80080",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/josef-tiroir.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -137,7 +137,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "marta.bleau@google.com",
         "zipcode" => "75005",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/marta-bleau.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -147,7 +147,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "morgan.guichard@google.com",
         "zipcode" => "60000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/morgan-guichard.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -157,7 +157,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "carla.tuile@google.com",
         "zipcode" => "80000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/carla-tuile.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -167,7 +167,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "william.porte@google.com",
         "zipcode" => "75004",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/william-porte.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -177,7 +177,7 @@ $lovers = [
         "gender" => "femme",
         "mail" => "sandrine.couturier@google.com",
         "zipcode" => "80000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/sandrine-couturier.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -187,7 +187,7 @@ $lovers = [
         "gender" => "homme",
         "mail" => "gregoire.salto@google.com",
         "zipcode" => "60000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/gregoire-salto.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ],
     [
@@ -197,7 +197,17 @@ $lovers = [
         "gender" => "femme",
         "mail" => "martine.cahier@google.com",
         "zipcode" => "02000",
-        "picture" => "../assets/img/",
+        "picture" => "../assets/img/martine-cahier.jpg",
         "description" => "Je cherche l'amour avec un grand A",
     ]
 ];
+$loversToShow = [];
+if (isset($_COOKIES["research_type"]) && !empty($_COOKIES["research_type"])) {
+    foreach ($lovers as $lover) {
+        if ($lover["gender"] === $_COOKIE["research_type"]) {
+            array_push($loversToShow, $lover);
+        }
+    }
+} else {
+    $loversToShow = $lovers;
+}
