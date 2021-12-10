@@ -26,11 +26,10 @@ require "../controllers/lovers_controller.php";
                     </div>
                 </div>
             </div>
-    </div>
-<?php
+        <?php
         }
-?>
-</div>
+        ?>
+    </div>
 </div>
 <?php
 include_once("../footer.php");
