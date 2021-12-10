@@ -1,5 +1,5 @@
 
-#like{
+.hearts{
   background-color:#07d907;
   color: white;
 }
@@ -30,5 +30,5 @@ z-index: -5000;
   border-color: rgb(255,255,255);
 }
 .active{
-  background-color:#d907b6;
+  background-color:#f808bc;
 }
