@@ -1,5 +1,6 @@
-const heart = document.getElementsByClassName("heart");
+let hearts = document.getElementsByClassName('heart');
 
-heart.addEventListener("click", () => {
-    
+hearts.forEach( element => element.addEventListener("click", function(){
+    element.classList.toggle("active");
 })
+)
