@@ -2,8 +2,15 @@
 
 // On verif la validité des données reçues par le formulaire
 
-if(isset($_POST["lastname"], $_POST["firstname"], $_POST["age"], $_POST["gender"], $_POST["zipcode"], $_POST["mail"],
-$_POST["research_type"]) && !empty($_POST["lastname"]) && !empty($_POST["firstname"]) && !empty($_POST["age"]) && !empty($_POST["gender"]) && !empty($_POST["zipcode"]) && !empty($_POST["mail"]) && !empty($_POST["research_type"])){
+if (isset(
+    $_POST["lastname"],
+    $_POST["firstname"],
+    $_POST["age"],
+    $_POST["gender"],
+    $_POST["zipcode"],
+    $_POST["mail"],
+    $_POST["research_type"]
+) && !empty($_POST["lastname"]) && !empty($_POST["firstname"]) && !empty($_POST["age"]) && !empty($_POST["gender"]) && !empty($_POST["zipcode"]) && !empty($_POST["mail"]) && !empty($_POST["research_type"])) {
 
     // Les données sont bonnes, on les enregistre dans un cookie et on redirige vers la page user.php
     setcookie("lastname", $_POST["lastname"], time() + 86400, '/', 'madewithlove.fr');
@@ -17,6 +24,6 @@ $_POST["research_type"]) && !empty($_POST["lastname"]) && !empty($_POST["firstna
     header('Location: ../views/user.php');
 }
 // Les données ne sont pas conformes, on redirige vers index.php
-else{
+else {
     header('Location: ../index.php');
 }
