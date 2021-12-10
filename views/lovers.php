@@ -1,5 +1,5 @@
 <?php
-$root = $_SERVER["REQUEST_SCHEME"]."://". $_SERVER["HTTP_HOST"];
+$root = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
 include_once("../header.php");
 require "../controllers/lovers_controller.php";
 ?>
@@ -26,11 +26,12 @@ require "../controllers/lovers_controller.php";
                         </div>
                     </div>
                 </div>
-            <?php
-            }
-            ?>
-        </div>
+            </div>
+        <?php
+        }
+        ?>
     </div>
+</div>
 <?php
-  include_once("../footer.php");
+include_once("../footer.php");
 ?>
