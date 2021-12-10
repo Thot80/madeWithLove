@@ -18,7 +18,7 @@ $lovers = [
         "mail" => "alice.martin@google.com",
         "zipcode" => "75020",
         "picture" => "../assets/img/alice-martin.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Je cherche une relation serieuse.",
     ],
     [
         "lastname" => "Carter",
@@ -28,7 +28,7 @@ $lovers = [
         "mail" => "mark.carter@google.com",
         "zipcode" => "75002",
         "picture" => "../assets/img/mark-carter.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "J’adore Starbucks et les films d’action",
     ],
     [
         "lastname" => "Guyon",
@@ -38,7 +38,7 @@ $lovers = [
         "mail" => "france.guyon@google.com",
         "zipcode" => "67290",
         "picture" => "../assets/img/france-guyon.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "A adoré le dernier film de Spielberg #sciencefiction",
     ],
     [
         "lastname" => "Dage",
@@ -48,7 +48,7 @@ $lovers = [
         "mail" => "jeremy.dage@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/jeremy-dage.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Je suis fan du PSG et de Neymar ! À mort l’OM",
     ],
     [
         "lastname" => "Henry",
@@ -58,7 +58,7 @@ $lovers = [
         "mail" => "margaux.henry@google.com",
         "zipcode" => "60320",
         "picture" => "../assets/img/margaux-henry.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Gandhi : soyez le changement que vous voulez voir dans le monde   ",
     ],
     [
         "lastname" => "Croisé",
@@ -68,7 +68,7 @@ $lovers = [
         "mail" => "david.croise@google.com",
         "zipcode" => "02500",
         "picture" => "../assets/img/david-croise.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Yogiste et végan ; who’s down pour un brunch avocado ?",
     ],
     [
         "lastname" => "Depres",
@@ -78,7 +78,7 @@ $lovers = [
         "mail" => "pauline.depres@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/pauline-depres.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Célibataire endurci, recherche celle qui me fera craquer",
     ],
     [
         "lastname" => "Bègue",
@@ -88,7 +88,7 @@ $lovers = [
         "mail" => "maxime.begue@google.com",
         "zipcode" => "75019",
         "picture" => "../assets/img/maxime-begue.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Personne ne me répond sur cette App. Où est le respect ?",
     ],
     [
         "lastname" => "Courrier",
@@ -98,7 +98,7 @@ $lovers = [
         "mail" => "carole.courrier@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/carole-courrier.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Moche et sans ami – sauras-tu me complimenter ?",
     ],
     [
         "lastname" => "Deloin",
@@ -108,7 +108,7 @@ $lovers = [
         "mail" => "henry.deloin@google.com",
         "zipcode" => "75016",
         "picture" => "../assets/img/henry-deloin.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Je ne suis pas un dieu grec mais je recherche celle qui saura trouver ma beauté intérieure",
     ],
     [
         "lastname" => "Dubois",
@@ -118,7 +118,7 @@ $lovers = [
         "mail" => "caroline.dubois@google.com",
         "zipcode" => "60210",
         "picture" => "../assets/img/caroline-dubois.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Seul dans ma vie de merde – qui veut bien m’en sortir ?",
     ],
     [
         "lastname" => "Tiroir",
@@ -128,7 +128,7 @@ $lovers = [
         "mail" => "josef.tiroir@google.com",
         "zipcode" => "80080",
         "picture" => "../assets/img/josef-tiroir.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Tout le monde me rejette. Le monde est-il si mauvais ?",
     ],
     [
         "lastname" => "Bleau",
@@ -138,7 +138,7 @@ $lovers = [
         "mail" => "marta.bleau@google.com",
         "zipcode" => "75005",
         "picture" => "../assets/img/marta-bleau.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Citadine devant l’éternel, j’espère que tu aimes fouler le trottoir des villes",
     ],
     [
         "lastname" => "Guichard",
@@ -148,7 +148,7 @@ $lovers = [
         "mail" => "morgan.guichard@google.com",
         "zipcode" => "60000",
         "picture" => "../assets/img/morgan-guichard.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Recherche une fille casual et ouverte d’esprit",
     ],
     [
         "lastname" => "Tuile",
@@ -158,7 +158,7 @@ $lovers = [
         "mail" => "carla.tuile@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/carla-tuile.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Grande fan des discussions qui n’en finissent plus",
     ],
     [
         "lastname" => "Porte",
@@ -168,7 +168,7 @@ $lovers = [
         "mail" => "william.porte@google.com",
         "zipcode" => "75004",
         "picture" => "../assets/img/william-porte.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Adepte des doctrines libérales, prêt à en discuter avec toi",
     ],
     [
         "lastname" => "Couturier",
@@ -178,7 +178,7 @@ $lovers = [
         "mail" => "sandrine.couturier@google.com",
         "zipcode" => "80000",
         "picture" => "../assets/img/sandrine-couturier.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Ça te dit de venir sauver les océans avec moi ?",
     ],
     [
         "lastname" => "Salto",
@@ -188,7 +188,7 @@ $lovers = [
         "mail" => "gregoire.salto@google.com",
         "zipcode" => "60000",
         "picture" => "../assets/img/gregoire-salto.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Esprit casanier, préfère voyager à travers la lecture",
     ],
     [
         "lastname" => "Cahier",
@@ -198,7 +198,7 @@ $lovers = [
         "mail" => "martine.cahier@google.com",
         "zipcode" => "02000",
         "picture" => "../assets/img/martine-cahier.jpg",
-        "description" => "Je cherche l'amour avec un grand A",
+        "description" => "Plusieurs zéros sur mon compte en banque, easy",
     ]
 ];
 $loversToShow = [];
