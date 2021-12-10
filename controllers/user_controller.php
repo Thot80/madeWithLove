@@ -13,6 +13,12 @@ if (isset($_COOKIE["lastname"], $_COOKIE["firstname"], $_COOKIE["age"], $_COOKIE
 
 
 if (isset($_POST["submit"]) && $_POST["submit"]  == "delete") {
-    setcookie('lastname', '', time() - 3600, '/');
+    setcookie('lastname', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('firstname', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('age', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('gender', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('zipcode', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('research_type', '', time() - 3600, '/', "madewithlove.fr");
+    setcookie('mail', '', time() - 3600, '/', "madewithlove.fr");
     header('location: ../index.php');
 }
