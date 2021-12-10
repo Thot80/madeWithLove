@@ -19,7 +19,7 @@ require("../controllers/user_controller.php");
       </div>
 
       <div class="row">
-        <div class="col">Genre :</div>
+        <div class="col">Age :</div>
         <div class="col"><?= $age;?></div>
       </div>
 
