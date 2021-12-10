@@ -9,7 +9,7 @@ include_once("header.php");
               </div>
               
           <div class="card-body">
-            <form method="POST" action="index_controller.php" role="form">
+            <form method="POST" action="controllers/index_controller.php" role="form">
           
                     <div class="form-group">
                        <div class="h5 text-center fw-bold">
@@ -32,8 +32,8 @@ include_once("header.php");
                       <div class="col-md-6 h5 text-center fw-bold ">
                         <label for="gender" class="form-label">Je suis</label>
                         <select id="gender" name="gender" class="form-control">
-                          <option value="Homme" selected>Homme</option>
-                          <option value="Femme">Femme</option>
+                          <option value="homme" selected>Homme</option>
+                          <option value="femme">Femme</option>
                         </select>
                         
                         <label for="age" class="form-label">Age</label>
@@ -43,8 +43,8 @@ include_once("header.php");
                       <div class="col-md-6 h5 text-center fw-bold ">
                         <label for="research_type" class="form-label">Je recherche...</label>
                          <select id="research_type" name="research_type" class="form-control">
-                            <option value="Homme">Un homme</option>
-                            <option value="Femme" selected>Une femme</option>
+                            <option value="homme">Un homme</option>
+                            <option value="femme" selected>Une femme</option>
                         </select>
                         
                         <label for="age" class="form-label">Age</label>

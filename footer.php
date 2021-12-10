@@ -1,7 +1,7 @@
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white container-fluid">
   <!-- Grid container -->
-  <div class="container-fluid p-0 pt-4">
+  <div class=" p-0 pt-4">
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->

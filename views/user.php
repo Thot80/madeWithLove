@@ -4,7 +4,7 @@ include_once("../header.php");
 require("../controllers/user_controller.php");
 ?>
       <!--LA DATA-->
-    <div class="container-fluid text-center pt-4 bg-dark text-white h3 ">
+    <div class="container-fluid text-center pt-4 bg-dark text-white vh-100">
         <div>
             <p class="h1 "> <span class="text-danger">L</span>es <span class="text-danger">P</span>aramètres <span class="text-danger">D</span>u <span class="text-danger">P</span>rofil</p>
         </div>
