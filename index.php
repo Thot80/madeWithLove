@@ -15,43 +15,43 @@
 
 <body>
 
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand " href="#">
+                  <img src="assets/img/logo.png" width="100" height="100" alt="logo du site" class="d-inline-block ">
+                  <img src="assets/img/titre.png" width="auto" height="80" alt="titre du site" class="d-inline-block ">
+            <!--<span class="navbar-text h1 text-uppercase text-dark ">made with "<span class="fw-bold text-danger">love</span>"-->
+              </span>      
+              </a>
+            
+            
+    <button class="navbar-toggler custom-toggler me-4"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand " href="#">
-                <img src="assets/img/logo.png" width="100" height="100" alt="logo du site" class="d-inline-block ">
-                <img src="assets/img/titre.png" width="auto" height="80" alt="titre du site" class="d-inline-block ">
-           <!--<span class="navbar-text h1 text-uppercase text-dark ">made with "<span class="fw-bold text-danger">love</span>"-->
-            </span>      
-            </a>
-          
-          
-  <button class="navbar-toggler custom-toggler me-4"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
-      <li class="nav-item active bg-danger border rounded mx-2 font-weight-bold ">
-        <a class="h2 nav-link text-white py-2" href="#">Evénements </a>
-      </li>
-      <li class="nav-item bg-danger border rounded mx-2 font-weight-bold">
-        <a class="h2 nav-link text-white px-5 py-2" href="#">Equipe</a>
-      </li>
-      <li class="nav-item bg-danger border rounded mx-2  font-weight-bold">
-        <a class="h2 nav-link disabled text-white px-5 py-2" href="#"> Avis </a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+        <li class="nav-item active bg-danger border rounded mx-2 font-weight-bold ">
+          <a class="h2 nav-link text-white py-2" href="/views/lovers.php">Lovers</a>
+        </li>
+        <li class="nav-item bg-danger border rounded mx-2 font-weight-bold">
+          <a class="h2 nav-link text-white px-5 py-2" href="views/user.php">User</a>
+        </li>
+        <li class="nav-item bg-danger border rounded mx-2  font-weight-bold">
+          <a class="h2 nav-link disabled text-white px-5 py-2" href="index.php">Home </a>
+        </li>
+      </ul>
 
-  </div>
-</nav> 
+    </div>
+  </nav> 
 </header>
 
 <div class="container p-0 my-4 ">
@@ -62,7 +62,7 @@
       </div>
       
       <div class="card-body">
-        <form method="POST" action="index_controller.php">
+        <form method="POST" action="controllers/index_controller.php">
           
           <div class="row">
             <div class="col-md-3 col-lg-3 mx-md-4 mx-lg-4 my-1">
@@ -86,8 +86,8 @@
           <div class="row">      
             <label for="gender">Votre sexe</label>
                 <select id="gender" name="gender" >
-                  <option value="Homme" selected>Homme</option>
-                  <option value="Femme">Femme</option>
+                  <option value="homme" selected>Homme</option>
+                  <option value="femme">Femme</option>
                 </select>
           </div>
           
@@ -104,8 +104,8 @@
           <div class="row">      
             <label for="research_type">Vous recherchez...</label>
                  <select id="research_type" name="research_type">
-                    <option value="Homme">Un homme</option>
-                    <option value="Femme" selected>Une femme</option>
+                    <option value="homme">Un homme</option>
+                    <option value="femme" selected>Une femme</option>
                 </select>
           </div>
           

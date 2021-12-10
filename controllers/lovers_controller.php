@@ -202,7 +202,7 @@ $lovers = [
     ]
 ];
 $loversToShow = [];
-if (isset($_COOKIES["research_type"]) && !empty($_COOKIES["research_type"])) {
+if (isset($_COOKIE["research_type"]) && !empty($_COOKIE["research_type"])) {
     foreach ($lovers as $lover) {
         if ($lover["gender"] === $_COOKIE["research_type"]) {
             array_push($loversToShow, $lover);
