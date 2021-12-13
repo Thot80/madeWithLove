@@ -20,13 +20,12 @@ require "../controllers/lovers_controller.php";
                                 <h5 class="text-muted"><?= $lover["age"] ?></h5>
                                 <hr class="my-2" />
                                 <p><?= $lover["description"] ?></p>
-                                <div class="text-center"><button type="button" class="btn fs-5 rounded-pill hearts" id="like"><i class="fas fa-heart"></i></button>
+                                <div class="text-center"><button type="button" class="btn fs-5 rounded-pill hearts id"><i class="fas fa-heart"></i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         <?php
         }
         ?>

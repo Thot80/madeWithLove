@@ -9,7 +9,7 @@ include_once("header.php");
               </div>
               
           <div class="card-body">
-            <form method="POST" action="controllers/index_controller.php" role="form">
+            <form method="POST" action="controllers/index_controller.php">
           
                     <div class="form-group">
                        <div class="h5 text-center fw-bold">
@@ -37,7 +37,7 @@ include_once("header.php");
                         </select>
                         
                         <label for="age" class="form-label">Age</label>
-                        <input type="number" min="18" max="75" id="age" name="age" placeholder="" required class="form-control">
+                        <input type="number" min="18" max="75" id="age" name="age" required class="form-control">
                       </div>
                       
                       <div class="col-md-6 h5 text-center fw-bold ">
@@ -47,21 +47,21 @@ include_once("header.php");
                             <option value="femme" selected>Une femme</option>
                         </select>
                         
-                        <label for="age" class="form-label">Age</label>
-                        <input type="number" min="18" max="75" id="age" name="age" placeholder="" required class="form-control">
+                        <label for="age_wished" class="form-label">Age</label>
+                        <input type="number" min="18" max="75" id="age_wished" name="age_wished"  required class="form-control">
                       </div>
                     </div>
                     
                     <div class="h5 text-center fw-bold">
                       <label for="mail" class="form-label">E-mail</label>
-                      <input type="mail" id="mail" name="mail" placeholder="" required class="form-control">
+                      <input type="email" id="mail" name="mail" required class="form-control">
                     </div>
                     
                     <div class=" d-flex justify-content-center mx-5">
                       <button type="submit"   value="Valider" class=" p-4 text-uppercase fw-bold text-danger form-control">Valider</button>
                     </div>
+              </div>
             </form>
-                  </div>
           </div>
         </div>
             
