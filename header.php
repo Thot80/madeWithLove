@@ -1,53 +1,10 @@
 <?php
-<<<<<<< HEAD
-$root = $_SERVER["REQUEST_SCHEME"]."://". $_SERVER["HTTP_HOST"];
-=======
 $root = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
->>>>>>> main
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
-<<<<<<< HEAD
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Made With Love !</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"> <!--Lien pour librarie icones-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="<?=$root;?>/index.php">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="<?=$root;?>/index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="<?=$root;?>/views/lovers.php">Voir nos célibataires</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="<?=$root;?>/views/user.php">Mon Compte</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-     <!-- <header>
-=======
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,7 +43,6 @@ $root = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
 
 
   <!-- <header>
->>>>>>> main
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand " href="#">
                   <img src="assets/img/logo.png" width="100" height="100" alt="logo du site" class="d-inline-block ">
@@ -122,8 +78,4 @@ $root = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
 
     </div>
   </nav> 
-<<<<<<< HEAD
 </header> -->
-=======
-</header> -->
->>>>>>> main

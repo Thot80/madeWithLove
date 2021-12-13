@@ -84,11 +84,7 @@ $lovers = [
         "lastname" => "Bègue",
         "firstname" => "Maxime",
         "age" => "25 ans",
-<<<<<<< HEAD
-        "gender" => "homme",
-=======
         "gender" => "homme ",
->>>>>>> main
         "mail" => "maxime.begue@google.com",
         "zipcode" => "75019",
         "picture" => "../assets/img/maxime-begue.jpg",

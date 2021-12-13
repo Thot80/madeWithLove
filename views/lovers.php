@@ -1,11 +1,9 @@
 <?php
-<<<<<<< HEAD
+
 $root = $_SERVER["REQUEST_SCHEME"]."://". $_SERVER["HTTP_HOST"];
 include_once("../header.php");
 require "../controllers/lovers_controller.php";
 ?>
-<<<<<<< Updated upstream
-=======
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -53,13 +51,7 @@ require "../controllers/lovers_controller.php";
             </div>
         </nav>
     </header>
->>>>>>> Stashed changes
-=======
-$root = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
-include_once("../header.php");
-require "../controllers/lovers_controller.php";
-?>
->>>>>>> main
+
     <div class="container">
         <div class="row">
             <?php
@@ -77,31 +69,16 @@ require "../controllers/lovers_controller.php";
                                 <h5 class="text-muted"><?= $lover["age"] ?></h5>
                                 <hr class="my-2" />
                                 <p><?= $lover["description"] ?></p>
-<<<<<<< HEAD
-                                <div class="text-center"><button type="button" class="btn fs-5 rounded-pill" id="like"><i class="fas fa-heart"></i></button>
-=======
                                 <div class="text-center"><button type="button" class="btn fs-5 rounded-pill hearts" id="like"><i class="fas fa-heart"></i></button>
->>>>>>> main
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-            <?php
-            }
-            ?>
+
         </div>
     </div>
-<?php
-  include_once("../footer.php");
-=======
-        <?php
-        }
-        ?>
-    </div>
-</div>
+
 <?php
 include_once("../footer.php");
->>>>>>> main
 ?>
